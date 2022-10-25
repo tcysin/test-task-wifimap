@@ -1,0 +1,13 @@
+# https://flake8.pycqa.org/en/2.6.0/config.html
+[flake8]
+exclude =
+    __pycache__,
+    .git,
+    .gitignore,
+    .tox,
+    .vscode,
+    [.]env,
+    [.]venv,
+    *.py[co],
+max-complexity = 10
+max-line-length = 99

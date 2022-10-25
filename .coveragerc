@@ -1,0 +1,8 @@
+# https://coverage.readthedocs.io/en/stable/config.html
+[run]
+source =
+    src
+
+[report]
+skip_covered = true
+skip_empty = true
