@@ -16,3 +16,7 @@ test:
 .PHONY:
 coverage:
 	coverage run -m unittest; coverage report -m
+
+.PHONY:
+run:
+	flask --app $(src_dir)/app --debug run
