@@ -17,3 +17,21 @@ Run the tests with `unittest`:
 ```bash
 python3 -m unittest
 ```
+
+## Quickstart
+
+Run the analysis using `analysis.py` script:
+```bash
+user_id="1118"
+python src/analysis.py \
+    $user_id  \
+    conns.csv  \
+    hotspots.csv  \
+    users.csv  \
+    --loglevel=info
+```
+
+For usage, check out the docs:
+```bash
+python src/analysis.py -h
+```
